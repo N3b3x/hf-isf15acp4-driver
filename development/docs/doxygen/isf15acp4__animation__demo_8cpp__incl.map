@@ -1,0 +1,94 @@
+<map id="examples/esp32/main/isf15acp4_animation_demo.cpp" name="examples/esp32/main/isf15acp4_animation_demo.cpp">
+<area shape="rect" id="Node000001" title="Procedural animation showcase with swappable graphics backend." alt="" coords="863,5,1029,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,269,89,295"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="863,52,734,78,589,111,466,145,344,184,94,267,92,262,343,179,465,140,588,105,733,72,862,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="1373,108,1471,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1030,46,1359,105,1358,111,1029,52"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="113,269,264,295"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="863,57,671,111,421,196,231,267,230,262,419,191,669,105,861,52"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="289,269,406,295"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="872,63,724,116,555,184,383,266,380,261,553,179,722,111,870,58"/>
+<area shape="rect" id="Node000006" href="$esp32__isf15acp4__setup_8hpp.html" title="Factory helpers for ISF15ACP4 SPI adapter and SmartDisplay config." alt="" coords="845,108,1047,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="949,60,949,94,943,94,943,60"/>
+<area shape="rect" id="Node000015" href="$isf15acp4_8hpp.html" title="Hardware&#45;agnostic driver for NKK SmartDisplay OLED pushbuttons and displays." alt="" coords="1184,189,1297,214"/>
+<area shape="poly" id="edge56_Node000001_Node000015" title=" " alt="" coords="994,58,1209,179,1207,184,991,63"/>
+<area shape="rect" id="Node000029" href="$isf15acp4__animator_8hpp.html" title="Frame sequencer and procedural animation helpers for SmartDisplay." alt="" coords="1929,269,2107,295"/>
+<area shape="poly" id="edge57_Node000001_Node000029" title=" " alt="" coords="1030,52,1361,131,1954,264,1952,269,1360,136,1029,57"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="803,269,950,295"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="943,134,890,257,885,255,939,132"/>
+<area shape="rect" id="Node000008" href="$esp32__isf15acp4__spi__adapter_8hpp.html" title="ESP&#45;IDF SPI/GPIO adapter for the ISF15ACP4 SmartDisplay driver." alt="" coords="566,181,723,221"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="903,136,731,180,730,175,902,131"/>
+<area shape="rect" id="Node000014" href="$esp32__isf15acp4__test__config_8hpp.html" title="Shared pin and SPI constants for ISF15ACP4 ESP32 examples." alt="" coords="710,607,873,647"/>
+<area shape="poly" id="edge19_Node000006_Node000014" title=" " alt="" coords="953,133,963,162,973,204,975,250,972,273,964,296,952,313,938,322,924,330,909,344,870,410,840,479,817,543,802,594,797,593,812,542,835,477,866,407,905,341,920,326,935,318,949,309,960,293,967,272,970,250,968,204,958,164,948,134"/>
+<area shape="poly" id="edge21_Node000006_Node000015" title=" " alt="" coords="990,131,1185,183,1184,188,988,136"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="566,213,361,235,104,272,103,266,360,230,566,207"/>
+<area shape="poly" id="edge14_Node000008_Node000004" title=" " alt="" coords="566,219,269,270,268,264,565,214"/>
+<area shape="poly" id="edge15_Node000008_Node000005" title=" " alt="" coords="574,224,404,268,403,263,573,219"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="701,219,831,262,829,267,699,224"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1897,695,1968,720"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="724,212,1205,285,1539,340,1555,350,1566,361,1576,371,1591,380,1638,395,1679,401,1755,397,1791,395,1829,397,1870,407,1914,428,1944,449,1967,471,1985,496,1997,522,2003,550,2003,581,1998,613,1987,648,1975,669,1959,687,1955,684,1971,666,1982,646,1993,612,1998,580,1998,551,1992,524,1981,498,1963,475,1940,453,1911,433,1868,412,1828,402,1791,400,1755,402,1679,406,1637,401,1589,385,1573,375,1562,365,1552,354,1537,345,1204,290,723,217"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1054,695,1121,720"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="567,219,516,239,492,253,472,271,456,292,448,312,446,361,446,540,451,561,465,580,487,598,517,614,594,642,687,663,786,679,885,690,1040,701,1040,707,884,695,786,684,686,668,592,647,515,619,484,603,461,584,446,563,441,540,441,361,443,311,451,290,468,268,489,249,513,234,565,214"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="625,269,729,295"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="655,221,669,256,664,258,650,223"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="481,269,600,295"/>
+<area shape="poly" id="edge13_Node000008_Node000012" title=" " alt="" coords="621,224,569,263,565,259,618,219"/>
+<area shape="rect" id="Node000013" href="$isf15acp4__spi__interface_8hpp.html" title="CRTP&#45;based SPI and GPIO interface for NKK SmartDisplay OLED drivers." alt="" coords="948,350,1152,375"/>
+<area shape="poly" id="edge16_Node000008_Node000013" title=" " alt="" coords="671,219,725,256,792,292,883,324,970,345,969,350,881,329,790,297,722,261,668,224"/>
+<area shape="poly" id="edge17_Node000013_Node000009" title=" " alt="" coords="1089,373,1253,419,1361,445,1470,468,1511,472,1563,474,1684,476,1745,479,1801,486,1849,498,1884,517,1900,534,1913,554,1929,599,1936,644,1937,681,1931,681,1930,644,1924,601,1908,557,1896,537,1880,521,1847,502,1800,491,1745,484,1684,481,1563,479,1511,478,1470,473,1360,450,1252,424,1087,378"/>
+<area shape="poly" id="edge18_Node000013_Node000010" title=" " alt="" coords="1045,377,1019,423,991,492,981,530,977,570,981,609,995,645,1016,669,1043,687,1040,691,1012,673,990,648,976,610,972,570,976,529,986,490,1014,420,1040,374"/>
+<area shape="poly" id="edge20_Node000014_Node000010" title=" " alt="" coords="863,644,1041,691,1040,696,862,649"/>
+<area shape="poly" id="edge22_Node000015_Node000009" title=" " alt="" coords="1298,201,1495,206,1753,218,1989,237,2073,251,2102,258,2121,267,2143,287,2156,307,2162,331,2163,361,2163,540,2161,575,2152,601,2136,624,2110,649,2080,670,2047,685,1982,703,1981,697,2045,680,2078,665,2107,645,2131,621,2147,599,2155,573,2158,540,2158,361,2157,332,2151,309,2139,290,2118,272,2100,263,2072,256,1988,242,1752,223,1494,211,1298,206"/>
+<area shape="poly" id="edge23_Node000015_Node000010" title=" " alt="" coords="1208,217,1060,274,986,310,957,328,939,344,922,370,914,392,913,449,913,540,917,574,929,598,948,620,974,645,1007,669,1043,687,1040,692,1004,674,971,649,944,624,924,601,912,575,907,540,907,449,909,391,917,367,935,341,954,323,983,305,1058,269,1206,212"/>
+<area shape="poly" id="edge48_Node000015_Node000013" title=" " alt="" coords="1229,216,1076,343,1073,339,1225,212"/>
+<area shape="rect" id="Node000016" href="$isf15acp4__button__ui_8hpp.html" title="High&#45;level button + display interaction patterns for SmartDisplay." alt="" coords="1278,269,1459,295"/>
+<area shape="poly" id="edge24_Node000015_Node000016" title=" " alt="" coords="1261,212,1340,260,1337,264,1258,216"/>
+<area shape="rect" id="Node000017" href="$isf15acp4__graphics__context_8hpp.html" title="Runtime&#45;selectable graphics backend for SmartDisplay applications." alt="" coords="1379,343,1526,383"/>
+<area shape="poly" id="edge47_Node000015_Node000017" title=" " alt="" coords="1286,212,1401,243,1450,257,1473,267,1480,283,1482,299,1473,331,1468,329,1476,299,1475,284,1469,271,1448,262,1400,248,1285,217"/>
+<area shape="rect" id="Node000018" href="$isf15acp4__canvas_8hpp.html" title="Software framebuffer and 2D drawing primitives for SmartDisplay OLEDs." alt="" coords="1688,438,1855,463"/>
+<area shape="poly" id="edge46_Node000015_Node000018" title=" " alt="" coords="1287,211,1493,267,1573,292,1606,298,1636,300,1690,297,1715,298,1739,305,1763,318,1786,341,1795,362,1796,384,1785,426,1780,425,1791,384,1790,363,1781,344,1759,322,1737,310,1714,304,1690,303,1636,305,1606,304,1572,297,1492,272,1286,217"/>
+<area shape="rect" id="Node000019" href="$isf15acp4__types_8hpp.html" title="Shared types, constants, and color utilities for NKK SmartDisplay OLED drivers." alt="" coords="1367,614,1523,639"/>
+<area shape="poly" id="edge53_Node000015_Node000019" title=" " alt="" coords="1246,214,1254,250,1268,294,1298,359,1326,407,1391,517,1435,600,1430,603,1386,520,1321,410,1293,361,1264,296,1249,251,1240,215"/>
+<area shape="rect" id="Node000026" href="$isf15acp4__ssd1331_8hpp.html" title="SSD1331 command constants and initialization tables for NKK SmartDisplay." alt="" coords="1201,526,1376,551"/>
+<area shape="poly" id="edge49_Node000015_Node000026" title=" " alt="" coords="1239,215,1225,270,1218,326,1225,382,1235,419,1249,455,1277,513,1273,515,1244,457,1230,421,1219,383,1213,326,1219,269,1234,214"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="1585,269,1737,295"/>
+<area shape="poly" id="edge54_Node000015_Node000027" title=" " alt="" coords="1285,211,1317,219,1573,265,1572,270,1316,224,1284,217"/>
+<area shape="rect" id="Node000028" href="$isf15acp4_8ipp.html" title=" " alt="" coords="1761,269,1905,295"/>
+<area shape="poly" id="edge55_Node000015_Node000028" title=" " alt="" coords="1283,211,1317,219,1436,237,1530,246,1747,266,1747,272,1529,252,1435,242,1316,224,1282,217"/>
+<area shape="poly" id="edge25_Node000016_Node000010" title=" " alt="" coords="1338,297,1272,326,1189,373,1147,403,1108,437,1073,476,1046,520,1032,553,1030,581,1035,610,1046,646,1055,665,1068,683,1064,686,1051,668,1041,648,1030,612,1024,582,1027,552,1041,517,1069,473,1104,433,1144,398,1187,368,1270,321,1336,292"/>
+<area shape="poly" id="edge26_Node000016_Node000017" title=" " alt="" coords="1383,293,1424,331,1421,335,1379,297"/>
+<area shape="rect" id="Node000024" href="$isf15acp4__button__ui_8ipp.html" title=" " alt="" coords="1601,343,1771,383"/>
+<area shape="poly" id="edge44_Node000016_Node000024" title=" " alt="" coords="1415,292,1597,337,1596,342,1414,297"/>
+<area shape="poly" id="edge27_Node000017_Node000009" title=" " alt="" coords="1527,377,1545,380,1594,387,1637,389,1711,389,1746,390,1783,396,1823,408,1869,428,1899,446,1921,464,1938,486,1955,518,1964,541,1967,561,1969,606,1971,627,1969,647,1951,685,1947,682,1963,646,1966,627,1963,607,1962,561,1959,543,1950,520,1934,489,1917,468,1896,450,1866,433,1821,413,1782,401,1746,396,1711,394,1637,394,1594,392,1544,385,1526,382"/>
+<area shape="poly" id="edge28_Node000017_Node000010" title=" " alt="" coords="1434,385,1381,429,1311,473,1287,483,1266,488,1227,491,1191,497,1173,506,1155,521,1126,558,1108,602,1097,645,1092,681,1086,680,1092,644,1103,600,1122,556,1151,517,1170,501,1189,492,1226,485,1265,482,1286,478,1309,468,1378,424,1431,381"/>
+<area shape="poly" id="edge29_Node000017_Node000018" title=" " alt="" coords="1523,380,1717,432,1715,437,1522,385"/>
+<area shape="rect" id="Node000022" href="$isf15acp4__graphics__surface_8hpp.html" title="Pluggable graphics surface interface for interchangeable render backends." alt="" coords="1502,519,1649,559"/>
+<area shape="poly" id="edge39_Node000017_Node000022" title=" " alt="" coords="1454,383,1456,425,1462,448,1472,469,1493,492,1518,510,1515,514,1489,496,1468,472,1457,450,1451,426,1449,383"/>
+<area shape="rect" id="Node000023" href="$isf15acp4__graphics__context_8ipp.html" title=" " alt="" coords="1481,431,1664,471"/>
+<area shape="poly" id="edge43_Node000017_Node000023" title=" " alt="" coords="1481,381,1536,420,1533,425,1478,385"/>
+<area shape="poly" id="edge30_Node000018_Node000009" title=" " alt="" coords="1838,461,1887,481,1910,497,1928,517,1939,537,1946,559,1951,604,1949,647,1942,682,1937,681,1943,646,1946,604,1941,560,1934,539,1924,520,1906,501,1885,486,1836,466"/>
+<area shape="poly" id="edge31_Node000018_Node000010" title=" " alt="" coords="1719,466,1677,473,1568,479,1426,480,1355,483,1289,489,1233,502,1191,521,1176,534,1166,548,1156,577,1149,610,1134,648,1108,685,1103,682,1129,645,1144,608,1151,575,1161,545,1172,531,1189,516,1231,497,1288,484,1354,477,1426,474,1568,473,1676,468,1718,461"/>
+<area shape="poly" id="edge32_Node000018_Node000019" title=" " alt="" coords="1718,466,1578,497,1491,521,1476,538,1465,559,1451,601,1446,599,1460,557,1472,535,1489,516,1577,492,1717,461"/>
+<area shape="rect" id="Node000020" href="$isf15acp4__canvas_8ipp.html" title=" " alt="" coords="1673,526,1870,551"/>
+<area shape="poly" id="edge35_Node000018_Node000020" title=" " alt="" coords="1774,464,1774,512,1769,512,1769,464"/>
+<area shape="poly" id="edge33_Node000019_Node000009" title=" " alt="" coords="1516,637,1884,696,1883,701,1515,642"/>
+<area shape="poly" id="edge34_Node000019_Node000010" title=" " alt="" coords="1393,642,1135,698,1134,693,1392,637"/>
+<area shape="rect" id="Node000021" href="$isf15acp4__font_8hpp.html" title="Compact 5x7 bitmap font for SmartDisplay text rendering." alt="" coords="1673,614,1819,639"/>
+<area shape="poly" id="edge36_Node000020_Node000021" title=" " alt="" coords="1770,552,1756,601,1751,600,1765,551"/>
+<area shape="poly" id="edge37_Node000021_Node000009" title=" " alt="" coords="1774,637,1894,687,1892,692,1772,642"/>
+<area shape="poly" id="edge38_Node000021_Node000010" title=" " alt="" coords="1673,639,1135,703,1134,698,1672,634"/>
+<area shape="poly" id="edge40_Node000022_Node000009" title=" " alt="" coords="1650,555,1761,582,1832,604,1858,622,1882,642,1918,682,1914,686,1878,646,1855,626,1830,609,1760,587,1648,560"/>
+<area shape="poly" id="edge41_Node000022_Node000010" title=" " alt="" coords="1577,559,1566,605,1555,629,1537,649,1506,666,1462,679,1351,697,1232,705,1134,708,1134,703,1231,700,1350,691,1461,674,1504,661,1534,645,1550,626,1561,603,1571,558"/>
+<area shape="poly" id="edge42_Node000022_Node000019" title=" " alt="" coords="1548,561,1476,608,1473,604,1545,557"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="2009,438,2072,463"/>
+<area shape="poly" id="edge45_Node000024_Node000025" title=" " alt="" coords="1772,377,1877,399,1991,428,2000,431,1998,436,1989,433,1876,404,1771,382"/>
+<area shape="poly" id="edge50_Node000026_Node000009" title=" " alt="" coords="1295,550,1315,598,1333,624,1357,644,1399,662,1458,676,1529,687,1606,694,1761,702,1883,704,1883,709,1761,707,1606,700,1528,692,1457,682,1397,667,1354,649,1329,627,1311,600,1290,553"/>
+<area shape="poly" id="edge51_Node000026_Node000010" title=" " alt="" coords="1281,553,1240,597,1184,649,1122,690,1119,685,1180,645,1236,593,1277,550"/>
+<area shape="poly" id="edge52_Node000026_Node000019" title=" " alt="" coords="1311,549,1413,605,1410,610,1308,554"/>
+<area shape="poly" id="edge58_Node000029_Node000009" title=" " alt="" coords="2038,293,2063,313,2087,341,2102,369,2109,393,2113,449,2113,540,2112,573,2109,599,2099,623,2080,648,2058,667,2033,682,1982,700,1980,695,2031,677,2055,663,2076,645,2095,620,2104,597,2107,572,2107,540,2107,449,2104,394,2097,371,2082,344,2060,317,2034,297"/>
+<area shape="poly" id="edge59_Node000029_Node000010" title=" " alt="" coords="1929,296,1917,297,1833,303,1760,303,1637,299,1578,300,1516,306,1448,320,1368,345,1287,377,1227,410,1175,454,1120,520,1100,560,1089,604,1086,646,1087,681,1082,681,1081,646,1084,603,1095,558,1116,517,1171,450,1224,405,1285,372,1366,340,1446,315,1516,300,1578,294,1637,294,1760,298,1832,298,1916,292,1928,291"/>
+<area shape="poly" id="edge60_Node000029_Node000017" title=" " alt="" coords="1936,297,1540,352,1539,347,1935,292"/>
+<area shape="rect" id="Node000030" href="$isf15acp4__animator_8ipp.html" title=" " alt="" coords="1863,350,2072,375"/>
+<area shape="poly" id="edge61_Node000029_Node000030" title=" " alt="" coords="2013,296,1985,340,1980,337,2008,293"/>
+<area shape="poly" id="edge62_Node000030_Node000025" title=" " alt="" coords="1979,374,2024,425,2019,429,1975,377"/>
+</map>
