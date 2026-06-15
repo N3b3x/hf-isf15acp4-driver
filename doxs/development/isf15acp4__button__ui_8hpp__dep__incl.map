@@ -1,0 +1,21 @@
+<map id="inc/isf15acp4_button_ui.hpp" name="inc/isf15acp4_button_ui.hpp">
+<area shape="rect" id="Node000001" title="High&#45;level button + display interaction patterns for SmartDisplay." alt="" coords="147,5,304,45"/>
+<area shape="rect" id="Node000002" href="$isf15acp4__button__dashboard_8cpp.html" title="Motor&#45;style dashboard with gauge, debounced button, and graphics backend selection." alt="" coords="5,262,245,302"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,59,135,263,130,261,211,57"/>
+<area shape="rect" id="Node000003" href="$isf15acp4__comprehensive__test_8cpp.html" title="Comprehensive ISF15ACP4 SmartDisplay driver validation for ESP32." alt="" coords="270,255,466,309"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,56,356,253,351,256,240,58"/>
+<area shape="rect" id="Node000004" href="$isf15acp4_8hpp.html" title="Hardware&#45;agnostic driver for NKK SmartDisplay OLED pushbuttons and displays." alt="" coords="331,93,467,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="280,49,374,91,372,96,278,53"/>
+<area shape="poly" id="edge10_Node000004_Node000002" title=" " alt="" coords="371,128,156,264,153,260,368,124"/>
+<area shape="poly" id="edge11_Node000004_Node000003" title=" " alt="" coords="378,130,365,148,355,168,350,190,351,212,360,254,355,255,345,213,345,189,349,166,360,145,374,127"/>
+<area shape="rect" id="Node000005" href="$esp32__isf15acp4__setup_8hpp.html" title="Factory helpers for ISF15ACP4 SPI adapter and SmartDisplay config." alt="" coords="365,167,571,207"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="420,127,453,165,449,168,416,131"/>
+<area shape="rect" id="Node000006" href="$isf15acp4__animation__demo_8cpp.html" title="Procedural animation showcase with swappable graphics backend." alt="" coords="490,255,657,309"/>
+<area shape="poly" id="edge9_Node000004_Node000006" title=" " alt="" coords="481,110,510,117,538,128,564,144,585,165,595,187,596,211,587,255,582,254,591,211,589,188,580,168,560,148,536,133,508,122,480,115"/>
+<area shape="rect" id="Node000007" href="$isf15acp4__ui__demo_8cpp.html" title="Interactive UI demo for the ISF15ACP4 SmartDisplay on ESP32." alt="" coords="681,262,860,302"/>
+<area shape="poly" id="edge12_Node000004_Node000007" title=" " alt="" coords="473,119,540,138,609,164,650,187,689,212,751,260,747,264,686,217,648,191,607,169,539,143,472,124"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="386,213,195,265,194,259,385,208"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="440,218,398,257,394,253,436,214"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="501,214,545,253,542,257,498,218"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="543,208,710,259,709,264,542,213"/>
+</map>
