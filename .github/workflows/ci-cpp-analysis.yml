@@ -1,0 +1,16 @@
+---
+name: 🔍 C++ Analysis CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  cppcheck:
+    uses: N3b3x/hf-general-ci-tools/.github/workflows/ru-cpp-analysis.yml@main
+    with:
+      source_dirs: "inc,src,examples/esp32/main"
+      suppressions: "_config/cppcheck-suppressions.txt"
+      std: "c++20"
