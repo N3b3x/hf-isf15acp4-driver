@@ -60,25 +60,30 @@ struct DisplayGeometry {
     std::size_t framebuffer_bytes;
 };
 
+// Namespace-scope so GetGeometry stays C++20 constexpr (function-local
+// static constexpr is C++23).
+inline constexpr DisplayGeometry kGeometryIsf15acp4{96, 64, 0x00, 0x5F, 0x00, 0x3F,
+                                                    96u * 64u * 2u};
+inline constexpr DisplayGeometry kGeometryIsc15anp4{64, 48, 0x10, 0x4F, 0x00, 0x2F,
+                                                    64u * 48u * 2u};
+inline constexpr DisplayGeometry kGeometryIsc01p{52, 36, 0x16, 0x49, 0x00, 0x23,
+                                                 52u * 36u * 2u};
+
 /**
  * @brief Get geometry metadata for a product variant.
  * @param variant Product variant identifier.
  * @return Const reference to static geometry descriptor.
  */
 inline constexpr const DisplayGeometry& GetGeometry(ProductVariant variant) noexcept {
-    static constexpr DisplayGeometry kIsf15acp4{96, 64, 0x00, 0x5F, 0x00, 0x3F, 96u * 64u * 2u};
-    static constexpr DisplayGeometry kIsc15anp4{64, 48, 0x10, 0x4F, 0x00, 0x2F, 64u * 48u * 2u};
-    static constexpr DisplayGeometry kIsc01p{52, 36, 0x16, 0x49, 0x00, 0x23, 52u * 36u * 2u};
-
     switch (variant) {
         case ProductVariant::Isf15acp4:
-            return kIsf15acp4;
+            return kGeometryIsf15acp4;
         case ProductVariant::Isc15anp4:
-            return kIsc15anp4;
+            return kGeometryIsc15anp4;
         case ProductVariant::Isc01p:
-            return kIsc01p;
+            return kGeometryIsc01p;
     }
-    return kIsf15acp4;
+    return kGeometryIsf15acp4;
 }
 
 /** @brief 2D point in display coordinates. */
